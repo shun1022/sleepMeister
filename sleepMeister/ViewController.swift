@@ -58,7 +58,7 @@ class ViewController: UIViewController {
         func alert(){
             let myAlert = UIAlertController(title: "alert", message:"ring ding", preferredStyle: .alert)
             let myAction = UIAlertAction(title: "止める", style: .default){
-                action in print("foo!")
+                action in print("good morning")
                 }
             myAlert.addAction(myAction)
             present(myAlert, animated: true, completion: nil)
